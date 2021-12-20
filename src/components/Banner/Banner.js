@@ -13,7 +13,12 @@ const Banner = () => {
                         <Box>
                             <Box>
                                 <Typography variant="h1">
-                                    Solana's first community driven metasystem.
+                                    Lotfi Ben Taleb
+                                </Typography>
+                            </Box>
+                            <Box>
+                                <Typography variant="caption">
+                                    Fullstack Web Developer & Web3 and smart contract Specialist
                                 </Typography>
                             </Box>
                             <Box mt={3} className={classes.bannerText} textAlign="center">

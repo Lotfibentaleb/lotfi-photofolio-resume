@@ -17,11 +17,10 @@ import Logo from './Logo'
 
 const MENU_ITEMS = [
     ['Home', `${HOME_URL}/#`],
-    ['Mint', `${HOME_URL}/#mint`],
-    ['Roadmap', `${HOME_URL}/#roadmap`],
-    ['Utilities', `${HOME_URL}/#utilities`],
-    ['$PIX', `${HOME_URL}/#tokenomics`],
-    ['Faq', `${HOME_URL}/#faq`]
+    ['About', `${HOME_URL}/#mint`],
+    ['Skills', `${HOME_URL}/#roadmap`],
+    ['Services', `${HOME_URL}/#utilities`],
+    ['Portfolio', `${HOME_URL}/#tokenomics`],
 ]
 
 const Header = () => {
@@ -43,7 +42,7 @@ const Header = () => {
         <AppBar elevation={0} className={`${classes.appBar} ${isLightHeader ? ' light' : ''}`}>
             <Container maxWidth="xl">
                 <Toolbar className={withSmallStyles(classes.toolbar)}>
-                    <Logo />
+                    {/* <Logo /> */}
 
                     <Hidden xsDown>
                         <Box flexGrow={1} />
@@ -88,7 +87,7 @@ const Header = () => {
                                         color="primary"
                                         className={classes.connectButton}
                                     >
-                                        Connect
+                                        Contact
                                     </Button>
                                 </Box>
                             </Box>

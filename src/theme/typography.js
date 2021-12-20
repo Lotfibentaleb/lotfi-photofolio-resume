@@ -18,7 +18,12 @@ const typegraphy = {
     h4: {},
     h5: {},
     h6: {},
-    caption: {},
+    caption: {
+        fontSize: 16,
+        lineHeight: 0.938,
+        fontWeight: '700',
+        textTransform: 'none'
+    },
     subtitle1: {
         fontSize: 14,
         lineHeight: 1.664,
